@@ -98,9 +98,33 @@ The built-in rule library includes detection coverage across 20+ regions and 100
 PlainBytes PDF Redactor is distributed through:
 
 - Microsoft Store
-- Official product channels operated by PlainBytes Studio
 
 [**Download from Microsoft Store**](https://apps.microsoft.com/detail/9N2VLPN4WDK1)
+
+## Installation and Update Notes
+
+### Package Size
+
+The installation package may appear relatively large compared to lightweight utility apps.
+
+This is expected.
+
+PlainBytes PDF Redactor includes built-in local AI components, including ONNX model data and related runtime resources required for offline sensitive information detection. These files are packaged with the application so that core detection features can run locally on the device without requiring cloud-based inference.
+
+In short, the larger package size is primarily due to:
+
+- bundled ONNX model files
+- local inference resources
+- regional rule data
+- offline processing dependencies
+
+### Updates
+
+PlainBytes PDF Redactor does not include a built-in in-app online updater.
+
+This is intentional. The product is designed around a local-first and low-network-dependency workflow, and we avoid introducing an additional in-app update channel that would require direct network access from the application itself.
+
+Updates are currently delivered through Microsoft Store only. Users can check for and install newer versions manually through the Microsoft Store interface.
 
 ## Built With
 
@@ -114,7 +138,7 @@ PlainBytes PDF Redactor is distributed through:
 
 ## Privacy
 
-The core document workflow does not require uploading PDFs to external servers. See [Privacy Policy](../website/privacy.html) for details.
+The core document workflow does not require uploading PDFs to external servers. See [Privacy Policy](PRIVACY.md) for details.
 
 ## Support
 
