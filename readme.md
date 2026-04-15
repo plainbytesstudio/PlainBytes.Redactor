@@ -9,9 +9,11 @@ PlainBytes PDF Redactor is a local-first PDF redaction tool for Windows. It help
 **Windows** · **Local-first** · **Proprietary**
 
 <p>
-  <img src="assets/hero-main.png" alt="PlainBytes PDF Redactor — main application window" width="1600" />
+  <a href="https://youtu.be/oTXzakvYYn4">
+    <img src="https://img.youtube.com/vi/oTXzakvYYn4/maxresdefault.jpg" alt="PlainBytes PDF Redactor tutorial video" width="1600" />
+  </a>
   <br />
-  <em>Main application window</em>
+  <em>Tutorial video (YouTube)</em>
 </p>
 
 ## Overview
