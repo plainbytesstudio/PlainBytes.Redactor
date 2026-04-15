@@ -1,5 +1,8 @@
 # PlainBytes PDF Redactor
 
+> Permanently remove sensitive data from PDFs — not just hide it.  
+> 100% offline. No cloud. No data exposure.
+
 *PlainBytes Studio · Windows Desktop*
 
 **Local-first PDF redaction** — detect, review, and export on your device.
@@ -8,13 +11,9 @@ PlainBytes PDF Redactor is a local-first PDF redaction tool for Windows. It help
 
 **Windows** · **Local-first** · **Proprietary**
 
-<p>
-  <a href="https://youtu.be/oTXzakvYYn4">
-    <img src="https://img.youtube.com/vi/oTXzakvYYn4/maxresdefault.jpg" alt="PlainBytes PDF Redactor tutorial video" width="1600" />
-  </a>
-  <br />
-  <em>Tutorial video (YouTube)</em>
-</p>
+## 🎬 20s Demo — See how it works
+
+[![Watch the demo](assets/hero-main.png)](https://youtu.be/oTXzakvYYn4)
 
 ## Overview
 
@@ -38,6 +37,14 @@ Intended for workflows such as:
 | :-------------------------------------------: | :-------------------------------------------: |
 | *Document & marks* | *Workflow / batch* |
 
+### ⚠️ Most PDF tools only hide data
+
+Black boxes can be removed. The original content remains in the file.
+
+### ✅ PlainBytes PDF Redactor removes it permanently
+
+Sensitive data is erased from the PDF structure itself.
+
 ## Core Capabilities
 
 - Offline PDF redaction workflow
@@ -48,6 +55,10 @@ Intended for workflows such as:
 - Batch processing for similar PDF files
 - Review and confirmation workflow before export
 - Multilingual interface
+
+## ⬇️ Download
+
+- Microsoft Store: https://apps.microsoft.com/detail/9N2VLPN4WDK1
 
 ## Product Workflow
 
@@ -153,3 +164,5 @@ This software is proprietary. Usage is governed by the End User License Agreemen
 This repository is used for product management, release distribution, and related materials. Source code is not licensed for public use, redistribution, or modification.
 
 Copyright © 2026 PlainBytes Studio. All rights reserved.
+
+Built for users who need to safely share documents without leaking sensitive information.
