@@ -13,7 +13,7 @@ PlainBytes PDF Redactor is a local-first PDF redaction tool for Windows. It help
 
 ## 🎬 20s Demo — See how it works
 
-[![Watch the demo](assets/hero-main.png)](https://youtu.be/oTXzakvYYn4)
+[![Watch the demo](https://raw.githubusercontent.com/plainbytesstudio/PlainBytes.Redactor/main/assets/hero-main.png)](https://youtu.be/oTXzakvYYn4)
 
 ## Overview
 
@@ -29,11 +29,11 @@ Intended for workflows such as:
 
 ## Screenshots
 
-| ![Audit panel and detection results](assets/screenshot-1.png) | ![Document view with redaction marks](assets/screenshot-2.png) |
+| <img src="https://raw.githubusercontent.com/plainbytesstudio/PlainBytes.Redactor/main/assets/screenshot-1.png" width="100%"> | <img src="https://raw.githubusercontent.com/plainbytesstudio/PlainBytes.Redactor/main/assets/screenshot-2.png" width="100%"> |
 | :-----------------------------------------------------------: | :----------------------------------------------------------: |
 | *Audit & detection* | *Review & document* |
 
-| ![Feature screenshot](assets/screenshot-3.png) | ![Workflow or batch](assets/screenshot-4.png) |
+| <img src="https://raw.githubusercontent.com/plainbytesstudio/PlainBytes.Redactor/main/assets/screenshot-3.png" width="100%"> | <img src="https://raw.githubusercontent.com/plainbytesstudio/PlainBytes.Redactor/main/assets/screenshot-4.png" width="100%"> |
 | :-------------------------------------------: | :-------------------------------------------: |
 | *Document & marks* | *Workflow / batch* |
 
