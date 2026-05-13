@@ -1,0 +1,30 @@
+name: Sync to SourceForge
+
+on:
+  push:
+    branches: [ main, master ]  # 当 main 或 master 分支有变动时触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # 获取完整历史记录，确保同步正常
+
+      - name: Install SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SF_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          # 自动添加 SourceForge 为已知主机，防止中途弹出确认对话框
+          ssh-keyscan git.code.sf.net >> ~/.ssh/known_hosts
+
+      - name: Push to SourceForge
+        run: |
+          # 请修改下方这一行：改为你第四步获取的 SF 地址
+          git remote remove sf || true
+          git remote add sf "ssh://julian2026@git.code.sf.net/p/plainbytes-redactor/code"
+          # 强制推送，确保两边内容严格一致
+          git push sf HEAD:main --force
