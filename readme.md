@@ -165,4 +165,5 @@ This repository is used for product management, release distribution, and relate
 
 Copyright © 2026 PlainBytes Studio. All rights reserved.
 
+
 Built for users who need to safely share documents without leaking sensitive information.
